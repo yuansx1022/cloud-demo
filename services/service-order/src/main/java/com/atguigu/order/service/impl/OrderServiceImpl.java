@@ -36,6 +36,9 @@ public class OrderServiceImpl implements OrderService {
         order.setUserId(userId);
         order.setNickName("张三");
         order.setAddress("尚硅谷");
+
+
+        System.out.println("1111");
         //TODD 远程查询商品列表
 
         order.setProductList(Arrays.asList(product));
